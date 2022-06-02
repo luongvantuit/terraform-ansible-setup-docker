@@ -1,0 +1,2 @@
+- name: Setup Docker
+  hosts: aws_ec2_instance
