@@ -4,12 +4,6 @@ variable "aws_ec2_instance_count" {
   description = "Is quantity AWS EC2 instance"
 }
 
-
-variable "aws_ec2_key_name" {
-  type        = string
-  description = "Key pair name EC2 instance"
-}
-
 variable "aws_ec2_instance_type" {
   type        = string
   default     = "c6g.medium"
